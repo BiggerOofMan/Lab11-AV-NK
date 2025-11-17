@@ -7,6 +7,20 @@ from calculator import *
 
 
 class TestCalculator(unittest.TestCase):
+    def test_add(self):
+        pass
+
+    def test_subtract(self):
+        pass
+
+    def test_divide_by_zero(self):
+        pass
+
+    def test_logarithm(self):
+        pass
+
+    def test_log_invalid_base(self):
+        pass
     def test_multiply(self):
         self.assertEqual(multiply(3, 4), 12)
         self.assertEqual(multiply(-2, 5), -10)
